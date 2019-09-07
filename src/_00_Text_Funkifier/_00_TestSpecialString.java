@@ -24,7 +24,7 @@ public class _00_TestSpecialString {
 	}
 	
 	//3. Fill in the funkifyTxt method in the MixedCapsString class
-	//   to make the JUnitTest case pass.
+	   //to make the JUnitTest case pass.
 	@Test
 	public void testMixedCapsString() {
 		SpecialString mcs = new MixedCapsString("This is also a test");
