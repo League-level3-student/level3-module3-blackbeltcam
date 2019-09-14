@@ -19,7 +19,7 @@ public class _00_TestSpecialString {
 	@Test
 	public void testBackwardsString() {
 		SpecialString bs = new BackwardsString("This is a test");
-		System.out.println(bs);
+		//System.out.println(bs);
 		assertEquals("tset a si sihT", bs.toString());
 	}
 	
@@ -38,6 +38,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+	SpecialString ufo = new ScreamingString("I am completely calm");
+	System.out.println(ufo);
+	assertEquals("I AM COMPLETELY CALM", ufo.toString());
 	}
 }
