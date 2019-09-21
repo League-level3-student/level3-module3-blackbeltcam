@@ -8,10 +8,4 @@ public class Cow extends Animal {
 		playNoise("Cow.wav");
 	}
 
-	@Override
-	public void stampede() {
-		// TODO Auto-generated method stub
-		playNoise("Stampede.wav");
-	}
-
 }

@@ -7,8 +7,10 @@ import javax.swing.JApplet;
 public abstract class Animal {
 	
 public abstract void makeNoise();
-public abstract void stampede();
 
+public void stampede() {
+	playNoise("Stampede.wav");
+}
 
 public void playNoise(String soundFile) {
 	try {
